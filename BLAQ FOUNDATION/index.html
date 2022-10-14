@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device=width, initial-scale=1.0">
+        <title>FOUNDATION</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cd183aa030.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-duotone fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Help persons with cancer</p>
+                <h1>Together let's fight cancer</h1>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"></div>
+                    <img src="Images/Chrysanthemum.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About us</h1>
+                        <p>Our legendary mother gave out all her money in order to start this foundation.Miss Blaq was diagnoised with cancer in its late stage.Victims of terrific disease cancer which keeps on killing thousands of individuals all around the world.She left her money so we could start a program to help individuals mostly women, who are going through the same she went through.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Patners')">Patners</p>
+                            <p class="tab-links" onclick="opentab('Technology')">Technology</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="PATNERS">
+                            <ul>
+                                <li><span>Blackwood Enterprise company</span><br>The Blackwood Enterprise company is an independent, global organization with over $9 billion in assets. Through collaboration with partner organizations in 49 countries, it is creating opportunities for all people to learn and prosper. The Foundation’s programs promote financial inclusion and advance youth learning, mostly in Africa.</li>
+                                <li><span>Saint-James Memorial</span><br>Saint-James Memorial (Norwegian Agency for Development Cooperation) is a directorate under the Norwegian Ministry of Foreign Affairs, whose main purpose is to ensure that Norwegian development aid funds are spent in the best possible way. Norad also provides grants to organizations that carry out projects in less fortunate countries.</li>
+                                <li><span>BOC Sciences</span><br>https://cmc.bocsci.com/about-us.html</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Technology">
+                            <ul>
+                                <li><span>ACTs</span><br>The Affordable Cancer Technologies (ACTs) Program supports innovative research on key scientific issues in global cancer control and leverages unique scientific opportunities afforded by the global collaboration of NCI’s Center for Global Health (CGH).
+
+                                    Prevention, early detection, diagnosis, and treatment are vital to successful cancer control.
+                                    
+                                    Unfortunately, many established cancer control technologies are not suitable for use in low-resource settings, either globally or in the United States, due to expense or dependency on extensive medical infrastructure. The ACTs Program supports resource-appropriate translational technology research and development for cancer, while ensuring affordability and potential impact in low-resource settings as essential design components.
+                                    
+                                    The ACTs Program develops technology through every stage, from prototype to clinical implementation studies. Technologies are validated in real-world health settings in low- and middle-income countries (LMICs), leading to additional innovations. Examples of important elements include technologies that can be used by minimally trained health workers, are appropriate at the clinical point of need, or are adaptable to diverse environmental conditions and health systems.
+                                    
+                                    Please note the ACTS Program does not support exploratory research</li>
+                                <li><span>Oncology imaging</span><br>Oncology imaging biomarkers are unique because they can examine and diagnose the exact tumor size and stage. Oncology imaging consists of two main procedures: imaging and diagnosis. Once a suspicious lump is detected through a scan, it has to be diagnosed as either malignant or benign.</li>
+                                <li><span>2016-2017</span><br>Internship at ecommerce</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>Designing web app training at en Institute</li>
+                                <li><span>2016</span><br>MBA from MIT</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                            </ul>
+                        </div>
+                    </div>`
+                </div>
+            </div>
+        </div>
+
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Our services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>ENCOURAGING PREVENTION</h2>
+                        <p>We help you take steps to prevent cancer or find it at its earliest, most treatable stage..</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>PROVIDING SUPPORT</h2>
+                        <p>We’re here for you every second of every day, to help you through every step of your cancer experience..</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-apple"></i>
+                        <h2>FOSTERING INNOVATION</h2>
+                    <p>We fund and conduct lifesaving research that helps us better understand, prevent, and find cures for cancer..</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="work">
+            <div class="container">
+                <h1 class="sub-title">Our work</h1>
+                <div class="work-list">
+                    <div class="working">
+                        <img src="Images/Penguins.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>At the Blaq Foundation, we are driven by a belief that all people should have an equal chance to succeed, no matter where they started in life. To date, our programming has improved the lives of more than 50 million people and millions more in their households.
+
+                                Looking forward, our work is unified around the single most complex challenge that young people in Africa face — unemployment.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="working">
+                        <img src="Images/2594.jpg">
+                        <div class="layer">
+                            <h3>Music Media App</h3>
+                            <p>Research, evaluation, and learning are central to our work. Credible evidence helps us identify ideas and approaches with the potential to alleviate poverty. With the Young Africa Works strategy, our research and learning will focus on finding new evidence that demonstrates how to address youth unemployment in Africa. Our goal is to catalyze innovation, and build and share evidence that will influence and inspire others to act.
+
+                                Through our research, we identify emerging trends, disruptions, and opportunities to develop evidence to inform policy and our country plans. We will continue to find ways to return evidence to communities, engaging young people in our research and building the capacity of African researchers and evaluators.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="working">
+                    <img src="Images/2600.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>How we work is just as important as what we do. Young people are at the centre of our work and their insight and aspirations guide us. We believe in respectful collaboration — with governments, the private sector, educators, and, most importantly, with young people. Through our work, we look to find new insights and share them with others to magnify our impact....</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact us</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>murithibridget7@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>0110358009</p>
+                        <div class="Social-icons"></div>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Cancer pdf.lnk" download class="btn btn2y">Download PDF</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright<i class="fa-sharp fa-solid fa-copyright"></i>Blaq Foundation</p>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+            </script>
+           
